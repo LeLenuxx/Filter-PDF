@@ -1,7 +1,7 @@
 from pathlib import Path
 from pypdf import PdfReader
 
-pdf_file_path = "./article data/pdf/Data one (500) with duplicates.PDF"
+pdf_file_path = "./article data/pdf/Dateien (76).PDF"
 
 def extract_text_from_pdf():
     reader = PdfReader(pdf_file_path)
