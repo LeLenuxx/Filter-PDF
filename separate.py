@@ -57,5 +57,5 @@ def extract_articles(input_file):
     return len(article_titles)
 
 if __name__ == "__main__":
-    count = extract_articles("./article data/text/Data two (143) with duplicates.txt")
+    count = extract_articles("./article data/text/Dateien (76).txt")
     print(f"Successfully extracted {count} articles to the 'extracted_articles' folder.")
